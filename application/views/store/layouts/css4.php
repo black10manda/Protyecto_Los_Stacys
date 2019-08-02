@@ -4,3 +4,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/plantilla/plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/plantilla/styles/categories.css">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/plantilla/styles/categories_responsive.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/plantilla/styles/checkout.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/plantilla/styles/checkout_responsive.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/plantilla/styles/contact.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/plantilla/styles/contact_responsive.css">

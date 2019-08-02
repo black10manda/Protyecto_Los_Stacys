@@ -137,9 +137,6 @@ private $permisos;
 		}else{
 			$this->edit($idcliente);
 		}
-
-		
-
 	}
 
 	public function delete($id){

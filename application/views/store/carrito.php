@@ -113,7 +113,7 @@
 								<div class="cart_total_price ml-auto">$ <?php echo $cart=$this->cart->total(); ?></div>
 							</li>
 						</ul>
-						<button class="cart_total_button">Continua</button>
+						<a href="<?php  echo base_url('Home/checkout') ?>"  class="btn cart_total_button">Continua</a>
 					</div>
 				</div>
 			</div>

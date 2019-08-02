@@ -49,8 +49,10 @@
                             </span>
                         </a>
                         <ul class="treeview-menu"> 
-                            <li><a href="<?php echo base_url(); ?>reportes/ventas"><i class="fa fa-circle-o"></i> Ventas</a></li>
+                            <li><a href="<?php echo base_url(); ?>reportes/ventas"><i class="fa fa-circle-o"></i>Ventas</a></li>
+                            <li><a href="<?php echo base_url(); ?>reportes/mensajes"><i class="fa fa-circle-o"></i> Mensajes</a>
                         </ul>
+                       
                     </li>
                     <li class="treeview">
                         <a href="#">

@@ -15,8 +15,8 @@
 				<ul>
 					<li><a href="<?php echo base_url(); ?>">home</a></li>
 					<li><a href="<?php echo base_url('Home/store'); ?>">Tienda</a></li>
-					<li><a href="">Nosotros</a></li>
-					<li><a href="">Contacto</a></li>
+					<li><a href="<?php echo base_url('Home/info'); ?>">Nosotros</a></li>
+					<li><a href="<?php echo base_url('Home/nosotros'); ?>">Contacto</a></li>
 				</ul>
 			</nav>
 			<div class="header_content ml-auto">
@@ -37,6 +37,11 @@
 					<a href="<?php echo base_url('Home/login');?>">
 						<div class="avatar">
 							<img src="<?php echo base_url();?>assets/plantilla/images/avatar.svg" alt="">
+							<?php if ($this->session->userdata("login")) {?>
+							<?php echo $this->session->userdata("nombre")?>
+							<?php  }else{  ?>
+								Ingresa.
+							<?php  } ?>
 						</div>
 					</a>
 				</div>
